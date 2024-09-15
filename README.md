@@ -25,9 +25,9 @@ In practical experiments, a correlation value of 1 is never achieved due to cons
 ## Accuracy and Curve Fitting
 The initial accuracy of this method is 0.5 pixels. By applying curve fitting and interpolation, accuracy is enhanced to 0.3 pixels. A quadratic curve of the following form is used:
 
-$$
+$
 a \cdot x^2 + b \cdot y^2 + c \cdot x \cdot y + d \cdot x + e \cdot y + f = R_{cormx}[ij] \tag{2}
-$$
+$
 
 This system of equations is solved using the values of five adjacent points to calculate the coefficients:
 
